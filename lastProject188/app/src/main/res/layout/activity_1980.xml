@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C5E1A5"
+    tools:context=".FourthActivity">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/shareButton1"
+        android:layout_width="85dp"
+        android:layout_height="61dp"
+        android:background="@drawable/button_background"
+        android:backgroundTint="#CE93D8"
+        android:fontFamily="@font/francois_one"
+        android:text="share"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.152" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/shareButton4"
+        android:layout_width="85dp"
+        android:layout_height="61dp"
+        android:background="@drawable/button_background"
+        android:backgroundTint="#CE93D8"
+        android:fontFamily="@font/francois_one"
+        android:text="share"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.538" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/shareButton3"
+        android:layout_width="85dp"
+        android:layout_height="61dp"
+        android:background="@drawable/button_background"
+        android:backgroundTint="#CE93D8"
+        android:fontFamily="@font/francois_one"
+        android:text="share"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.41" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/shareButton2"
+        android:layout_width="85dp"
+        android:layout_height="61dp"
+        android:background="@drawable/button_background"
+        android:backgroundTint="#CE93D8"
+        android:fontFamily="@font/francois_one"
+        android:text="share"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.282" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button1"
+        android:layout_width="249dp"
+        android:layout_height="61dp"
+        android:background="@drawable/button_background"
+        android:backgroundTint="#CE93D8"
+        android:fontFamily="@font/francois_one"
+        android:onClick="videoUrl1"
+        android:text="July 6, 1988 Robin Hood, Mary Poppins, Chip, Main Street Evening"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.098"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.538" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button2"
+        android:layout_width="249dp"
+        android:layout_height="61dp"
+        android:background="@drawable/button_background"
+        android:backgroundTint="#CE93D8"
+        android:fontFamily="@font/francois_one"
+        android:onClick="videoUrl2"
+        android:text="July 6, 1988 Adventure Land, Tiki Room, Jungle Cruise"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.098"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.282" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button3"
+        android:layout_width="249dp"
+        android:layout_height="61dp"
+        android:background="@drawable/button_background"
+        android:backgroundTint="#CE93D8"
+        android:fontFamily="@font/francois_one"
+        android:onClick="videoUrl3"
+        android:text="July 6, 1988 Parade - Mickey's 60th Birthday"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.098"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.41" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button4"
+        android:layout_width="249dp"
+        android:layout_height="61dp"
+        android:background="@drawable/button_background"
+        android:backgroundTint="#CE93D8"
+        android:fontFamily="@font/francois_one"
+        android:onClick="videoUrl4"
+        android:text="July 6, 1988 Disneyland Entrance"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.098"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.152" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="266dp"
+        android:layout_height="60dp"
+        android:background="#084CAF50"
+        android:fontFamily="cursive"
+        android:text="The 1980's"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#070707"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.184"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024" />
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="382dp"
+        android:layout_height="281dp"
+        android:layout_centerInParent="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.551"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.964" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="83dp"
+        android:layout_height="43dp"
+        android:background="@drawable/button_background"
+        android:onClick="goHome"
+        android:text="Back"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.961"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

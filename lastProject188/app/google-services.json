@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "387365326639",
+    "project_id": "homemovieviewer",
+    "storage_bucket": "homemovieviewer.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:387365326639:android:85703ceaf28fac790bdbda",
+        "android_client_info": {
+          "package_name": "edu.itas.christine.bergen.lastproject188"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "387365326639-as50tpdc7evhjetoql4ao709kcrve68l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbbUGbdb20noD2BJyvMfuI4fwOPclXTsI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "387365326639-as50tpdc7evhjetoql4ao709kcrve68l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
